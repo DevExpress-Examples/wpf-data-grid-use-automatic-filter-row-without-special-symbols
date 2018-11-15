@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Data.cs](./CS/AutoFilterlRow/Data.cs) (VB: [Data.vb](./VB/AutoFilterlRow/Data.vb))
+* [MainWindow.xaml](./CS/AutoFilterlRow/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/AutoFilterlRow/MainWindow.xaml.vb))
+* **[MainWindow.xaml.cs](./CS/AutoFilterlRow/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/AutoFilterlRow/MainWindow.xaml.vb))**
+<!-- default file list end -->
 # The use of Automatic Filter Row without special symbols
 
 
