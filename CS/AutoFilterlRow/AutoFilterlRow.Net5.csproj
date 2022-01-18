@@ -25,7 +25,6 @@
     <PackageReference Include="DevExpress.RichEdit.Core" Version="21.1.*-*" />
     <PackageReference Include="DevExpress.RichEdit.Export" Version="21.1.*-*" />
     <PackageReference Include="DevExpress.Wpf.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Demos" Version="21.1.*-*" />
     <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="21.1.*-*" />
     <PackageReference Include="DevExpress.Wpf.Printing" Version="21.1.*-*" />
     <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.1.*-*" />
