@@ -1,13 +1,9 @@
-Imports System.Windows
-Imports System.Windows.Controls
-Imports DevExpress.Xpf.Grid
 Imports DevExpress.Data.Filtering
+Imports DevExpress.Xpf.Grid
+Imports System.Windows
 
 Namespace AutoFilterlRow
 
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
     Public Partial Class MainWindow
         Inherits Window
 
