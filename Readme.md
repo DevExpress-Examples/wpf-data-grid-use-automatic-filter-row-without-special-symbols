@@ -3,18 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T150880)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Data.cs](./CS/AutoFilterlRow/Data.cs) (VB: [Data.vb](./VB/AutoFilterlRow/Data.vb))
-* [MainWindow.xaml](./CS/AutoFilterlRow/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/AutoFilterlRow/MainWindow.xaml))
-* **[MainWindow.xaml.cs](./CS/AutoFilterlRow/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/AutoFilterlRow/MainWindow.xaml.vb))**
-<!-- default file list end -->
-# The use of Automatic Filter Row without special symbols
+# WPF Data Grid - Use Automatic Filter Row Without Special Symbols
 
+When a user enters text that begins with the `_` or `%` symbol into the [Automatic Filter Row](https://docs.devexpress.com/WPF/6132/controls-and-libraries/data-grid/filtering-and-searching/automatic-filter-row), the `GridControl` switches the [AutoFilterCondition](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ColumnBase.AutoFilterCondition) property to `Contains` and uses the entered text without the first symbol as filter criteria.
 
-<p>When an end-user enters text into the AutoFilterRow for filtering that begins with '_' or '%', <strong>GridControl </strong>automatically replaces the AutoFilterCondition with "Contains" and uses the entered text without the first symbol as filter criteria.<br />To avoid this, it is necessary to create a TableView child and override the CreateAutoFilterCriteria method.</p>
+To prevent this behavior, create a [TableView](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView) descendant and override the `CreateAutoFilterCriteria` method as demonstrated in this example.
 
-<br/>
+![image](https://github.com/DevExpress-Examples/the-use-of-automatic-filter-row-without-special-symbols-t150880/assets/65009440/ad16ab25-1600-48f1-bde4-cc1948afeb5a)
 
+## Files to Review
 
+* [MainWindow.xaml](./CS/AutoFilterlRow/MainWindow.xaml)
+* [MainWindow.xaml.cs](./CS/AutoFilterlRow/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/AutoFilterlRow/MainWindow.xaml.vb))
+
+## Documentation
+
+* [Automatic Filter Row](https://docs.devexpress.com/WPF/6132/controls-and-libraries/data-grid/filtering-and-searching/automatic-filter-row)
+* [Filtering and Searching](https://docs.devexpress.com/WPF/7356/controls-and-libraries/data-grid/filtering-and-searching)
+
+## More Examples
+
+* [WPF Data Grid - Allow Case Sensitive Filtering](https://github.com/DevExpress-Examples/how-to-perform-case-sensitive-filtering-e3349)
+* [WPF Data Grid - Apply a Custom Filter Condition](https://github.com/DevExpress-Examples/wpf-data-grid-implement-custom-filtering)
