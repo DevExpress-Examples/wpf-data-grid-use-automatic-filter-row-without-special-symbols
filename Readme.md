@@ -28,7 +28,7 @@ To prevent this behavior, create a [TableView](https://docs.devexpress.com/WPF/D
 * [WPF Data Grid - Allow Case Sensitive Filtering](https://github.com/DevExpress-Examples/how-to-perform-case-sensitive-filtering-e3349)
 * [WPF Data Grid - Apply a Custom Filter Condition](https://github.com/DevExpress-Examples/wpf-data-grid-implement-custom-filtering)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-use-automatic-filter-row-without-special-symbols&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-use-automatic-filter-row-without-special-symbols&~~~was_helpful=no)
 
